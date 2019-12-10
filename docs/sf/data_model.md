@@ -175,13 +175,13 @@ A view is a logical table that is composed from fields from other tables. The da
 
 A view is created in the same manner as a table and has a number of additional options. One of these options is the choice in which way the view has to be created. There are three options available for this.
 
-### Automatic
+### Meta auto
 
 This method is used when only data from the linked (source) tables need to be used in the view.
 
 The *from clause* is created automatically. This is generated, but it can also be forced by executing the *Generate view from clause* task.
 
-### Modifiable
+### Meta custom
 
 Use this method to be able to modify the *from clause*, *where clause*, *group by clause* or *having clause* of the view. The *select clause* is built up on the basis of the *view table* and *view column* fields in the columns.
 
